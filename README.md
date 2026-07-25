@@ -6,10 +6,10 @@
 
 ## 🚀 About Me
 
-- 🎓 2nd year B.Tech CSE at **JIIT Noida**
+- 🎓 3rd year B.Tech CSE at **JIIT Noida**
 - 🔭 Currently building: **Real-time Fake News Detector** (Browser Extension + Telegram Bot + GenAI)
-- 🌱 Learning: **Graphs & DP** (309+ LeetCode problems solved)
-- 💼 Looking for: **SWE Internship — Summer 2026**
+- 🌱 Learning: **Graphs & DP** (315+ LeetCode problems solved)
+- 💼 Looking for: **SWE Internship**
 - 📍 India
 
 ---
