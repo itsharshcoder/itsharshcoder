@@ -39,8 +39,8 @@
 
 ## 📌 Featured Projects
 
-### 🏆 [Contest Tracker Bot](https://github.com/itsharshcoder/contest-tracker-bot)
-> Telegram bot that tracks upcoming contests from Codeforces, CodeChef & AtCoder with timezone-aware reminders, Google Calendar integration, ICS downloads, and a live rating checker. Built and deployed in **7 days**.
+### 🏆 [Contest Tracker Bot](https://github.com/itsharshcoder/telegram-contest-bot)
+> A Telegram bot I built because I kept missing contests. It pulls upcoming rounds from Codeforces, CodeChef and AtCoder, shows every time in your own timezone, and gives you one-tap Google Calendar and .ics reminders plus a live rating checker. Built and shipped in 7 days, and it's live in daily use.
 
 `Python` `Flask` `BeautifulSoup` `Telegram API` `Render`
 
@@ -49,28 +49,21 @@
 ---
 
 ### 🎬 [AdLens](https://github.com/itsharshcoder/AdLens)
-> A single-file, **100% offline** analyzer for ad creatives. Grades the hook, sound-off readiness, branding, CTA and pacing across **9 pillars**, rolls them into a **Virality Score**, and returns a ranked list of fixes plus a second-by-second engagement curve — no cloud, no API keys, ML models embedded right in the file.
+> Built to check whether an ad video is any good before you spend money promoting it. It scores the hook, sound-off readiness, branding, CTA and pacing across 9 pillars, rolls that into a single Virality Score, and hands back a ranked list of fixes plus a second-by-second engagement curve. One command, fully offline, no cloud or API keys, and the ML models sit right inside the file.
 
 `Python` `OpenCV` `Offline ML` `OCR` `Audio DSP`
 
 ---
 
 ### 🧠 [Crux](https://github.com/itsharshcoder/Crux)
-> AI mock-interview platform that reads your resume, asks the questions a real interviewer would, follows up when an answer is vague, and scores you by **meaning** (768-dim embeddings) rather than keywords. Multi-turn interview over WebSockets with automatic LLM fallback.
+> Built this after I kept getting caught off guard on questions about my own projects. It reads your resume, asks what a real interviewer actually would, and follows up when an answer is vague. It scores by meaning using 768-dim embeddings instead of keyword matching, runs the whole interview over WebSockets, and falls back across LLM providers so it stays up.
 
 `FastAPI` `WebSockets` `Redis` `Embeddings` `Groq / Gemini`
 
 ---
 
-### 👁️ [AdSaliency](https://github.com/itsharshcoder/AdSaliency)
-> Desktop app that predicts **where people look** in an ad — an image, a video, or a whole folder — as a heat-map overlay plus an attention score for your logo or CTA. Wraps the UNISAL saliency model, runs fully offline on CPU, and exports a clean PDF report.
-
-`Python` `PyTorch` `UNISAL` `OpenCV` `Tkinter`
-
----
-
 ### 📊 [Page Pulse](https://github.com/itsharshcoder/page-pulse)
-> A web tool that audits **any URL** and returns a clean health report — HTTP status, response time, SEO/meta, missing alt text, word count — behind a hardened SSRF guard. Framework-free core with 21 hermetic tests.
+> Give it any URL and it returns a quick health report: HTTP status, response time, SEO and meta tags, images missing alt text, and word count. The core has zero web-framework imports and ships with 21 tests, and an SSRF guard re-checks every redirect hop so it can't be tricked into hitting internal services.
 
 `FastAPI` `httpx` `BeautifulSoup` `SSRF-safe` `Render`
 
@@ -110,4 +103,4 @@
 
 ---
 
-> *"272 days straight. Not for anyone else — just to get better every day."*
+> *"272 days straight. Not for anyone else, just to get better every day."*
